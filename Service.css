@@ -1,0 +1,134 @@
+/* body{
+background-color: rgb( 227,154,130,0.733);
+background-size: cover;
+}
+
+.head{
+   
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+.card-title{
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  color: blue;
+}
+.card-text{
+   
+        font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.contact{
+   text-decoration: none;
+   color: rgb(115, 32, 128);
+   font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cards-1{
+    column-count: 2;
+   border:1px solid black;
+  
+}
+.card1 {
+    transform: skewX(4deg) skewY(20deg) rotate(5deg);
+   margin-left: 35%;
+}
+.card2{
+    transform: skewX(-5deg) skewY(-15deg) rotate(-4deg);
+}
+.cards-2{
+    column-count: 2;
+  margin-top: 0;
+   border:1px solid black;
+
+}
+.card3{
+    transform: skewX(5deg) skewY(20deg) rotate(5deg);
+   margin-left: 35%;
+}
+.card4{
+    transform: skewX(-5deg) skewY(-15deg) rotate(-5deg);
+} */
+
+@keyframes moveLeftRight {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 200px; /* Adjust the distance you want the heading to move */
+    }
+}
+.heading{
+    height: 60vh;
+    width: 100%;
+    background-color:rgb(145, 177, 214) ;
+  position:absolute;
+    z-index: -1;
+}
+
+.title{
+    font-size: 90px;
+    text-align: left;
+    position: relative;
+    animation: moveLeftRight 2s linear; 
+
+}
+
+.line{
+text-align: left;
+position: relative;
+animation: moveLeftRight 2s linear;
+}
+
+.sub-title{
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    animation: moveLeftRight 2s linear ; /* Adjust timing and animation style as needed */
+
+}
+
+.cards{
+   column-count: 3;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   column-gap:10px;
+}
+
+.card1{
+margin-top: 200px;
+
+    }
+.card2{
+margin-top: 100px;
+
+    }
+.card3{
+margin-top: 200px;
+
+    }
+
+.quotes{
+    background-color:rgb(164, 166, 168) ;
+margin-top: 1%;
+height: 30vh;
+}
+
+.slide{
+    margin-top: 1%;
+}
+
+.footer{
+    background-color: rgb(23, 23, 23);
+    color: aliceblue;
+}
+
