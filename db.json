@@ -1,3 +1,22 @@
 {
-  "students": []
+  "user": [
+    {
+      "id": "1",
+      "name": "saji",
+      "email": "saji@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "b0a3",
+      "name": "jee",
+      "email": "jee@gmail.com",
+      "password": "1700"
+    },
+    {
+      "id": "a83b",
+      "name": "karthika",
+      "email": "k@gmail.com",
+      "password": "12345"
+    }
+  ]
 }

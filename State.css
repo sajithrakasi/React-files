@@ -1,0 +1,12 @@
+.container{
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.progressbar{
+    background-color: rgb(11, 199, 232);
+    height: 100%;
+    transition: width 1s linear;
+}
